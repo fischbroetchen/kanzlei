@@ -2,8 +2,8 @@
 
 body {
 	font-size: 16px;
-	background-color: lightgray;
-
+	/*background-color: lightgray;
+*/
 
 }
 
@@ -12,11 +12,12 @@ body {
 	background-color: white;
 	border-radius: 0;
 	border: 0;
+	margin-bottom: 0;
 }
 
 #topline {
 	background-color: #0e75a0;
-	height: 10px;
+	height: 20px;
 }
 
 #logo-img {
@@ -39,8 +40,9 @@ body {
 }
 
 #nav-list a {
-	border-right: 1px solid black;
+	text-transform: uppercase;
 	padding-left: 20px;
+	vertical-align: middle;
 }
 
 #nav-list a:hover {
@@ -58,6 +60,14 @@ body {
   margin-top: -30px;
  }
 
- section .container {
+ section.container {
  	background-color: gray;
+ 	padding: 5% 12% 5% 12%;
+ 	padding: top bottom 7%;
+ 	text-align: center;
+ }
+
+ #start-img {
+ 	height: 340px;
+ 	background-color: lightgray;
  }

@@ -74,7 +74,7 @@ body {
  }
 
  section > p {
- 	padding: 5% 12% 0% 12%;
+ 	padding: 5% 12% 5% 12%;
  }
 
 section > h2 {
@@ -85,4 +85,17 @@ section > h2 {
  section > h3 {
 	text-align: center;
 	padding: 5% 12% 0 12%;
+ }
+
+ #second-section {
+ 	background-color: gray;
+ }
+
+ footer {
+ 	background-color: #0e75a0;
+ 	height: 340px;
+ }
+
+ #second-section > p {
+ 	padding: 5% 20% 5% 20%;
  }

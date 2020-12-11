@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-brand h1 {
-
+	display: none;
 	font-size: 1.8em;
 	margin-top: 0px;
 	margin-bottom: 0;
@@ -61,13 +61,28 @@ body {
  }
 
  section.container {
- 	background-color: gray;
- 	padding: 5% 12% 5% 12%;
- 	padding: top bottom 7%;
- 	text-align: center;
+ 	background-color: lightgray;
+ 	
  }
 
  #start-img {
+ 	
+ 	background: url('../img/home-top.png') no-repeat;
+ 	background-position: center;
  	height: 340px;
- 	background-color: lightgray;
+
+ }
+
+ section > p {
+ 	padding: 5% 12% 0% 12%;
+ }
+
+section > h2 {
+	text-align: center;
+	padding: 5% 12% 0 12%;
+ }
+
+ section > h3 {
+	text-align: center;
+	padding: 5% 12% 0 12%;
  }

@@ -16,16 +16,21 @@ body {
 	margin-bottom: 0;
 }
 
+.primary-color-bg {
+	background:  #0e75a0;
+}
+
 #topline {
 	background-color: #0e75a0;
 	height: 20px;
 }
 
 #logo-img {
-	background-color: gray;
+	background: url('../img/logo_knapp.png') no-repeat center;
+	background-size: auto;
 	width: 200px;
 	height: 100px;
-	margin-left: 15px;
+	
 }
 
 .navbar-brand h1 {
@@ -65,27 +70,57 @@ body {
 
 
 }
+
+
 .navbar-header button.navbar-toggle {
   clear: both;
   /*margin-top: -30px;*/
- }
+}
 
- section.container {
+section.container {
  	background-color: lightgray;
  	
- }
+}
 
- #start-img {
+#start-img {
  	
  	background: url('../img/home-top.png') no-repeat;
  	background-position: center;
  	height: 340px;
+ 	padding: 0;
 
- }
+}
 
- section > p {
+
+#company-name {
+	margin-top: 100px;
+	font-style: italic;
+	font-size: 30px;
+	margin-left: 0;
+	color: white;
+	clear: both;
+	padding: 10px 25px 10px 25px;
+	margin-bottom: -10px;
+}
+
+
+#brand-name {
+	margin-top: 0;
+	margin-left: 200px;
+	font-style: normal;
+	clear: both;
+	text-transform: uppercase;
+	font-size: 20px;
+	/*background-color: lightgray;*/
+	background: rgba(255, 255, 255, 0.6);
+	padding: 10px 12px 10px 12px;
+}
+
+section > p {
+
  	padding: 5% 12% 5% 12%;
- }
+}
+
 
 section > h2 {
 	text-align: center;
@@ -95,26 +130,26 @@ section > h2 {
  section > h3 {
 	text-align: center;
 	padding: 5% 12% 0 12%;
- }
+}
 
- #second-section {
+#second-section {
  	background-color: gray;
- }
+}
 
- footer {
+footer {
  	background-color: #0e75a0;
  	height: 340px;
- }
+}
 
- #second-section > p {
+#second-section > p {
  	padding: 5% 20% 5% 20%;
- }
+}
 
- .current-site {
+.current-site {
  	background-color:  #0e75a0;
  	color: white !important;
- }
+}
 
 #infos-btn {
  	margin-bottom: 50px;
- }
+}

@@ -2,6 +2,7 @@
 
 body {
 	font-size: 16px;
+	font-family: Georgia;
 	/*background-color: lightgray;
 */
 
@@ -103,4 +104,8 @@ section > h2 {
  .current-site {
  	background-color:  #0e75a0;
  	color: white !important;
+ }
+
+#infos-btn {
+ 	margin-bottom: 50px;
  }

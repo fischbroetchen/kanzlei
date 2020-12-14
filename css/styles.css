@@ -48,6 +48,7 @@ body {
 
 
 #nav-list a {
+	text-align: center;
 	text-transform: uppercase;
 	padding-left: 20px;
 	vertical-align: middle;
@@ -153,10 +154,6 @@ section > h2 {
 	color: white;
 }
 
-footer {
- 	background-color: #0e75a0;
- 	height: 340px;
-}
 
 #second-section > p {
  	padding: 5% 20% 5% 20%;
@@ -173,8 +170,46 @@ footer {
 }
 
 
+.panel-footer {
+	border: 0;
+	padding: 2% 0% 2% 0%;
+ 	
+ 	background-color: #0e75a0;
+ 	color: white;
+}
 
+#footer-space {
 
+}
+
+#footer-name {
+	background-color: lightgray;
+	
+	padding: 20px 20px 10px ; 
+	color: initial;
+	height: 100%;
+}
+
+#footer-adress {
+	padding: 20px 0 10px 30px;
+	height: 100%;
+	background-color: #0e75a0;
+}
+
+#footer-contact {
+	padding: 20px 0 10px 30px;
+	background-color: lightgray;
+	color: initial;
+	height: 100%;
+}
+
+footer > div > div.row {
+	
+	
+	margin-left: 0;
+	margin-right: 0;
+	height: 140px;
+}
 @media (max-width: 575.98px) { 
 }
 

@@ -52,6 +52,7 @@ body {
 	text-transform: uppercase;
 	padding-left: 20px;
 	vertical-align: middle;
+	transition: 0.5s;
 }
 
 #nav-list a:hover {
@@ -172,15 +173,13 @@ section > h2 {
 
 .panel-footer {
 	border: 0;
-	padding: 2% 0% 2% 0%;
+	padding: 3% 0% 5% 0%;
  	
  	background-color: #0e75a0;
  	color: white;
 }
 
-#footer-space {
 
-}
 
 #footer-name {
 	background-color: lightgray;
@@ -202,6 +201,8 @@ section > h2 {
 	color: initial;
 	height: 100%;
 }
+
+
 
 footer > div > div.row {
 	

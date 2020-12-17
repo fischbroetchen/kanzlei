@@ -7,10 +7,15 @@
     <title>Knapp Rechtsanwälte</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/spinner.css">
     <link rel="shortcut icon" href="img/favicon.ico" />
 
   </head>
 <body>
+  <div class="spinner-container primary-color-bg">
+    <div class="spinner">
+    </div>
+  </div>
   <div id="topline"></div>
   <header>
     <nav id="header-nav" class="navbar navbar-default">
@@ -115,5 +120,6 @@
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script type="text/javascript">$('.spinner-container').fadeOut();</script>
 </body>
 </html>

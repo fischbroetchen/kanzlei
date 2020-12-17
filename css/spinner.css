@@ -1,0 +1,34 @@
+/* ======================================
+Loading animation
+====================================== */
+.spinner-container{
+    overflow: hidden;
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+}
+
+.spinner{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    margin-top: -25px;
+    left: 50%;
+    margin-left: -25px;
+    z-index: 1;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    border-left-color: transparent;
+    background: transparent;
+    animation: rotate 1.2s linear infinite;
+}
+
+@keyframes rotate { 
+       100% {transform: rotate(360deg); }
+}

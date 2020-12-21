@@ -15,7 +15,7 @@ body {
 	background-color: white;
 	border-radius: 0;
 	border: 0;
-	margin-bottom: 20px;
+	
 }
 
 .primary-color-bg {
@@ -51,14 +51,18 @@ body {
     vertical-align: bottom;
     padding: 0;
     font-family: Myriad Pro;
+    font-size: 0.9em;
 }
 
+#nav-list {
+	margin-bottom: 10px;
+}
 
 
 #nav-list a > div {
 	width: 100%;
-	border-right:  1px solid #ccc;
-	padding: 22px;
+	border-right:  1px dashed #ccc;
+	padding: 15px 22px 15px 22px;
 }
 
 
@@ -242,11 +246,28 @@ footer > div > div.row {
 	height: 140px;
 }
 
-@media (max-width: 575.98px) { 
-}
 
 
-@media (min-width: 576px) and (max-width: 767.98px) { 
+/*------- MEDIA QUERIES -------*/
+
+
+/*@media (max-width: 575.98px) { 
+	#nav-list a{
+		height: 40px;
+	}
+}*/
+
+
+@media (max-width: 767.98px) { 
+	#nav-list a {
+		height: 40px;
+		width: 100vw;
+	}
+	#nav-list a > div {
+		border:0;
+		border-bottom: 1px 
+
+	}
 }
 
 

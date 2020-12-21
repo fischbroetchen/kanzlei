@@ -18,6 +18,10 @@ body {
 	
 }
 
+.text-bold {
+	font-weight: bold;
+}
+
 .primary-color-bg {
 	background:  #2b6a84;
 }

@@ -3,67 +3,90 @@
 body {
 	font-size: 16px;
 	font-family: Georgia;
+	border-radius: 0;
 	/*background-color: lightgray;
 */
-
 }
 
-#header-nav {
+/*--------------- HEADER -----------------*/
 
+#header-nav {
+	/*height: 120px;*/
 	background-color: white;
 	border-radius: 0;
 	border: 0;
-	margin-bottom: 0;
+	margin-bottom: 20px;
 }
 
 .primary-color-bg {
-	background:  #0e75a0;
+	background:  #2b6a84;
 }
 
 #topline {
-	background-color: #0e75a0;
-	height: 20px;
+	background-color: #2b6a84;
+	height: 10px;
 }
 
+
+
 #logo-img {
-	background: url('../img/logo_knapp.png') no-repeat center;
+	background: url('../img/Logo.png') no-repeat center;
 	background-size: auto;
 	width: 200px;
 	height: 100px;
-	
+	vertical-align: bottom;
 }
 
 
 .navbar-brand h1 {
 	display: none;
-	font-size: 1.8em;
-	margin-top: 0px;
-	margin-bottom: 0;
-	text-shadow: 2px 2px 2px #222;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-	text-decoration: none;
 }
 
 
 #nav-list a {
-	text-align: center;
 	text-transform: uppercase;
-	padding-left: 20px;
-	vertical-align: middle;
 	transition: 0.5s;
+	height: 120px;
+	display: table-cell;
+    vertical-align: bottom;
+    padding: 0;
+    font-family: Myriad Pro;
 }
 
+
+
+#nav-list a > div {
+	width: 100%;
+	border-right:  1px solid #ccc;
+	padding: 22px;
+}
+
+
+
+#nav-list a > div.navbar-hide-border {
+	border: 0;
+}
+
+
+
+
 #nav-list a:hover {
-	background-color: #0e75a0;
+	background-color: #2b6a84;
 	color: white;
+	border: 0;
+}
 
+#nav-list a:hover > div {
+	border:0;
+}
 
+a#anwaelte-link:hover  {
+	border: 0;
 }
 
 .navbar {
 	min-height: 0;
+	margin-bottom: 0;
 }
 
 .navbar-nav {
@@ -86,15 +109,18 @@ body {
 }
 
 section.container {
- 	background-color: lightgray;
+ 	background-color: #eee;
+ 	padding: 50px 0px;
+ 	clear:both;
  	
 }
 
 #start-img {
  	
- 	background: url('../img/home-top.png') no-repeat;
+ 	background: url('../img/Start.png') no-repeat;
  	background-position: center;
- 	height: 340px;
+ 	background-size: cover;
+ 	height: 460px;
  	padding: 0;
 
 }
@@ -104,6 +130,7 @@ section.container {
 	margin-top: 100px;
 	font-style: italic;
 	font-size: 30px;
+
 	margin-left: 0;
 	color: white;
 	clear: both;
@@ -124,20 +151,19 @@ section.container {
 	padding: 10px 12px 10px 12px;
 }
 
-section.container {
-	padding: 50px 0px;
-}
+
 
 section > p {
-
- 	padding: 5% 12% 5% 12%;
+	
+ 	padding: 3% 12% 5% 12%;
 }
 
 
 section > h2 {
+	
 	text-align: center;
 	font-style: italic;
-	padding: 5% 12% 0 12%;
+	padding: 2% 12% 0 12%;
  }
 
  section > h3 {
@@ -147,8 +173,12 @@ section > h2 {
 	color: white;
 }
 
+#bg-img-paragraph {
+	position: absolute;
+}
+
 #second-section {
- 	background-color: gray;
+ 	background-color: #666666;
 }
 
 #second-section > p {
@@ -161,28 +191,30 @@ section > h2 {
 }
 
 .current-site {
- 	background-color:  #0e75a0;
+ 	background-color:  #2b6a84;
  	color: white !important;
 }
 
 #infos-btn {
  	margin-bottom: 50px;
+ 	font-size: 1em;
 
 }
 
+
+/* -----------FOOTER----------------*/
 
 .panel-footer {
 	border: 0;
 	padding: 3% 0% 5% 0%;
  	
- 	background-color: #0e75a0;
+ 	background-color: #2b6a84;
  	color: white;
 }
 
 
-
 #footer-name {
-	background-color: lightgray;
+	background-color: #eee;
 	
 	padding: 20px 0 20px 30px; 
 	color: initial;
@@ -192,25 +224,24 @@ section > h2 {
 #footer-adress {
 	padding: 20px 0 20px 30px;
 	height: 100%;
-	background-color: #0e75a0;
+	background-color: #2b6a84;
 }
 
 #footer-contact {
 	padding: 20px 0 20px 30px;
-	background-color: lightgray;
+	background-color: #eee;
 	color: initial;
 	height: 100%;
 }
 
 
 
-footer > div > div.row {
-	
-	
+footer > div > div.row {	
 	margin-left: 0;
 	margin-right: 0;
 	height: 140px;
 }
+
 @media (max-width: 575.98px) { 
 }
 
@@ -220,6 +251,13 @@ footer > div > div.row {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
+
+	#logo-img {
+		background: url('../img/Logo.png') no-repeat center;
+		background-size: contain;
+		width: 120px;
+		vertical-align: bottom;
+	}
 }
 
 

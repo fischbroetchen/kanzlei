@@ -8,6 +8,15 @@ body {
 */
 }
 
+
+p {
+	margin: 0;
+}
+
+.clearfix{
+	clear: both;
+}
+
 /*--------------- HEADER -----------------*/
 
 #header-nav {
@@ -16,6 +25,10 @@ body {
 	border-radius: 0;
 	border: 0;
 	
+}
+
+.font1 {
+	font-family: Myriad Pro;
 }
 
 .text-bold {
@@ -139,8 +152,8 @@ section.container {
 	margin-left: 0;
 	color: white;
 	clear: both;
-	padding: 10px 25px 10px 25px;
-	margin-bottom: -10px;
+	padding: 10px 25px 10px 50px;
+	margin-bottom: -8px;
 }
 
 
@@ -153,7 +166,7 @@ section.container {
 	font-size: 20px;
 	/*background-color: lightgray;*/
 	background: rgba(255, 255, 255, 0.6);
-	padding: 10px 12px 10px 12px;
+	padding: 12px 15px 12px 15px;
 }
 
 
@@ -203,6 +216,7 @@ section > h2 {
 #infos-btn {
  	margin-bottom: 50px;
  	font-size: 1em;
+ 	font-style: italic;
 
 }
 
@@ -211,17 +225,18 @@ section > h2 {
 
 .panel-footer {
 	border: 0;
-	padding: 3% 0% 5% 0%;
- 	
+	padding: 0;
+ 	font-size: 90%;
  	background-color: #2b6a84;
  	color: white;
+ 	border-radius: 0;
 }
 
 
 #footer-name {
 	background-color: #eee;
 	
-	padding: 20px 0 20px 30px; 
+	padding: 20px 0 20px 160px; 
 	color: initial;
 	height: 100%;
 }
@@ -233,13 +248,39 @@ section > h2 {
 }
 
 #footer-contact {
+	float: right;
 	padding: 20px 0 20px 30px;
 	background-color: #eee;
 	color: initial;
 	height: 100%;
+	position: relative;
+	
 }
 
+#footer-fill {
+	background-color: #eee;
+	height: 100%;
+}
 
+#footer-small-adress {
+	background-color: #eee;
+	color: initial;
+	padding: 20px 5% 2% 7%;
+	height: 100%;
+}
+
+#footer-small-adress > p {
+	margin-bottom: 10px;
+}
+
+#footer-contact > p {
+	margin-bottom: 10px;
+	padding-left: 60px;
+}
+
+#footer-contact > img {
+	position: absolute;
+}
 
 footer > div > div.row {	
 	margin-left: 0;
@@ -247,11 +288,15 @@ footer > div > div.row {
 	height: 140px;
 }
 
-.panel-footer {
-	border-radius: 0;
+.blue-line {
+	background-color: 	#2b6a84;
+	padding-bottom: 40px;
 }
 
+
+
 /*------- MEDIA QUERIES -------*/
+
 
 
 /*@media (max-width: 575.98px) { 
@@ -273,6 +318,10 @@ footer > div > div.row {
 	}
 	#nav-list {
 	margin-bottom: 0px;
+}
+
+#footer-contact {
+	float: right;
 }
 
 }

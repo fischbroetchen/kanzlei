@@ -17,6 +17,10 @@ p {
 	clear: both;
 }
 
+.relative{
+	position: relative;
+}
+
 /*--------------- HEADER -----------------*/
 
 #header-nav {
@@ -45,13 +49,16 @@ p {
 }
 
 
-
 #logo-img {
 	background: url('../img/Logo.png') no-repeat center;
 	background-size: auto;
 	width: 200px;
 	height: 100px;
 	vertical-align: bottom;
+}
+
+div#logo-img {
+	margin-left: 50px;
 }
 
 
@@ -73,6 +80,7 @@ p {
 
 #nav-list {
 	margin-bottom: 10px;
+	margin-right: 50px;
 }
 
 
@@ -107,6 +115,10 @@ p {
 	margin-bottom: 0;
 }
 
+.navbar-collapse {
+	padding-right: 0;
+}
+
 .navbar-nav {
 	margin: 0px -15px;
 }
@@ -135,10 +147,10 @@ section.container {
 
 #start-img {
  	
- 	background: url('../img/Start.png') no-repeat;
- 	background-position: center;
+ 	background: url('../img/Start_breit.png') no-repeat;
+ 	background-position: 75%;
  	background-size: cover;
- 	height: 460px;
+ 	height: 550px;
  	padding: 0;
 
 }
@@ -193,6 +205,15 @@ section > h2 {
 
 #bg-img-paragraph {
 	position: absolute;
+	height: 60%;
+	width: auto;
+	
+
+}
+
+p.container {
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 #second-section {
@@ -201,12 +222,10 @@ section > h2 {
 
 #second-section > p {
 	color: white;
+	padding: 5% 20% 5% 20%;
 }
 
 
-#second-section > p {
- 	padding: 5% 20% 5% 20%;
-}
 
 .current-site {
  	background-color:  #2b6a84;
@@ -236,10 +255,17 @@ section > h2 {
 #footer-name {
 	background-color: #eee;
 	
-	padding: 20px 0 20px 160px; 
+	padding: 20px 0 20px 20px; 
 	color: initial;
 	height: 100%;
 }
+
+#footer-name > p {
+	float: right;
+	padding-right: 10%;
+	clear: both;
+}
+
 
 #footer-adress {
 	padding: 20px 0 20px 30px;
@@ -249,7 +275,7 @@ section > h2 {
 
 #footer-contact {
 	float: right;
-	padding: 20px 0 20px 30px;
+	padding: 20px 20px 20px 30px;
 	background-color: #eee;
 	color: initial;
 	height: 100%;
@@ -318,10 +344,16 @@ footer > div > div.row {
 	}
 	#nav-list {
 	margin-bottom: 0px;
+	margin-right: 0;
+}
+
+.panel-footer {
+	font-size: 70%;
 }
 
 #footer-contact {
 	float: right;
+	padding-left: 10px;
 }
 
 }

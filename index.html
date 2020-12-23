@@ -21,7 +21,7 @@
 
       <header>
         <nav id="header-nav" class="navbar navbar-default">
-          <div class="container">
+          <div class="">
             <div class="navbar-header">
               <a href="index.html" class="pull-left visible-sm visible-md visible-lg visible-xl">
                 <br>
@@ -93,24 +93,25 @@
 
       <!-- CONTENT -->
 
-      <section id="start-img" class="container">
+      <section id="start-img" class="">
         <div>
           <h1 id="company-name" class="primary-color-bg pull-left"> Kanzlei Knapp </h1>
           <h1 id="brand-name" class="pull-left font1">Recht & Steuern</h1>
         </div>
       </section>
-      <section class="container">
-        <div id="bg-img-paragraph">
-          <img src="img/paragraph.png" alt="">  
+      <section class="first-section">
+      <div class="">
+          <img src="img/paragraph.png" id="bg-img-paragraph" alt="">  
         </div>
+        
         <h2>Erfahren seit über 30 Jahren</h2>
-        <p class="font1">
+        <p class="font1 container">
         Seit über 30 Jahren, stehen Ihnen die Rechtsanwälte der Kanzlei Knapp mit Rat und Tat, in verschiedenen Fachgebieten erfolgreich zur Seite, um Ihnen als Mandant, eine optimale Betreuung bieten zu können. Jeder in seinem Fach spezialisiert, wie z. Bsp. Kündigungsschutzrecht, Verkehrsstraf- und Ordnungswidrigkeitenrecht, Insolvenzrecht, Familienrecht, Arbeitsrecht, Forderungseinzug, Verbraucherinsolvenz Betäubungsmittelstrafrecht, Jugendstrafrecht, Kapitalstrafrecht, Revision in Strafsachen, Straf- und Strafverfahrensrecht, Umweltstrafrecht, Wirtschaftsstrafrecht und Opferrecht, um Ihnen in jeder Lebenslage weiterhelfen zu können.
         </p>
       </section>
-      <section class="container" id= "second-section" >
-        <h3>Wir suchen für unsere Bürogemeinschaft Rechtsanwälte und freuen uns über Ihre Kontaktaufnahme.</h3>
-        <p class ="text-center font1" >
+      <section class="" id= "second-section" >
+        <h3 class="container">Wir suchen für unsere Bürogemeinschaft Rechtsanwälte <br>und freuen uns über Ihre Kontaktaufnahme.</h3>
+        <p class ="text-center font1 container" >
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
         </p>
         <div class="text-center">
@@ -120,24 +121,28 @@
 
 
 
-      <footer class="panel-footer container font1">
+     <footer class="panel-footer  font1">
             <div class="blue-line visible-lg"></div>
         <div>
           <div class="row">
             <div class="visible-xs visible-md visible-sm col-md-4 col-sm-6 col-xs-6" id="footer-small-adress">
               <div>
               <p class="text-bold" >
-                Kanzlei Knapp I Steuern & Recht<br>
+                Kanzlei Knapp I <br class="hidden-sm">Steuern & Recht<br>
               </p>
-              <p>
+              <p class="hidden-xs">
                 Bismarckallee 2a, 79098 Freiburg<br>
                 mail: kanzlei@knapp.co
+              </p>
+              <p class="visible-xs hidden-sm">
+                Bismarckallee 2a, <br>79098 Freiburg<br>
+                kanzlei@knapp.co
               </p>
             </div>
             </div>
             <div class="visible-md col-md-4" id="footer-fill"></div>
             <div class="col-md-4 col-sm-4 visible-lg" id="footer-name">
-              <p>
+              <div>
                 <p class="text-bold">
                   Rechtsanwaltskanzlei <br>
                   Andre M. Knapp <br>
@@ -146,7 +151,7 @@
                   Bürogemeinschaft von <br>
                   Rechtsanwälten
                 </p>
-              </p>
+              </div>
             </div>
             <div class="col-md-3 col-sm-4 visible-lg" id="footer-adress">
               <p>
@@ -158,8 +163,12 @@
             </div>
             <div class="col-md-4  col-sm-6 col-xs-6"  id="footer-contact" >
               <img src="img/contact.png" alt="">
-              <p>
+              <p class="hidden-xs">
                 Terminvereinbarungen,<br>
+                bitte telefonisch unter:<br>
+              </p>
+              <p class="visible-xs hidden-sm">
+                Termine,<br>
                 bitte telefonisch unter:<br>
               </p>
               <p class="text-bold">

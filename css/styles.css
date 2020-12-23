@@ -241,6 +241,11 @@ section > h2 {
 	height: 100%;
 }
 
+#footer-name > p {
+	float: right;
+	padding-right: 50px;
+}
+
 #footer-adress {
 	padding: 20px 0 20px 30px;
 	height: 100%;
@@ -249,12 +254,20 @@ section > h2 {
 
 #footer-contact {
 	float: right;
-	padding: 20px 0 20px 30px;
+	padding: 20px 5px 20px 30px;
 	background-color: #eee;
 	color: initial;
-	height: 100%;
-	position: relative;
-	
+	height: 100%;	
+}
+
+
+#footer-contact > p {
+	margin-bottom: 10px;
+	padding-left: 60px;
+}
+
+#footer-contact > img {
+	position: absolute;
 }
 
 #footer-fill {
@@ -265,21 +278,16 @@ section > h2 {
 #footer-small-adress {
 	background-color: #eee;
 	color: initial;
-	padding: 20px 5% 2% 7%;
+	padding: 20px 10px 20px 5px;
 	height: 100%;
 }
 
-#footer-small-adress > p {
-	margin-bottom: 10px;
+#footer-small-adress > div {
+	float: right;
 }
 
-#footer-contact > p {
+#footer-small-adress > div > p  {
 	margin-bottom: 10px;
-	padding-left: 60px;
-}
-
-#footer-contact > img {
-	position: absolute;
 }
 
 footer > div > div.row {	
@@ -318,14 +326,12 @@ footer > div > div.row {
 	}
 	#nav-list {
 	margin-bottom: 0px;
-}
+	}
+	.panel-footer {
+		font-size: 80%;
+	}
 
-#footer-contact {
-	float: right;
 }
-
-}
-
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
 

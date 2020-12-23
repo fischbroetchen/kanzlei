@@ -205,7 +205,7 @@ section > h2 {
 
 #bg-img-paragraph {
 	position: absolute;
-	height: 60%;
+	height: 80%;
 	width: auto;
 	
 
@@ -370,6 +370,10 @@ footer > div > div.row {
 
 	#footer-contact > p {
 		padding-left: 40px;
+	}
+
+	#footer-small-adress {
+		padding-right: 40px;
 	}
 
 }

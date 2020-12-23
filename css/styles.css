@@ -260,18 +260,17 @@ p.container {
 
 #footer-name {
 	background-color: #fff;
-	
-	padding: 20px 0 20px 20px; 
+	/*float: right;*/
+	padding: 20px 0 20px 160px; 
 	color: initial;
 	height: 100%;
 }
 
-#footer-name > p {
+#footer-name > div {
 	float: right;
-	padding-right: 10%;
+	padding-right: 50px;
 	clear: both;
 }
-
 
 #footer-adress {
 	padding: 20px 0 20px 30px;
@@ -281,12 +280,21 @@ p.container {
 
 #footer-contact {
 	float: right;
-	padding: 20px 20px 20px 30px;
+	padding: 20px 5px 20px 30px;
 	background-color: #fff;
 	color: initial;
-	height: 100%;
-	position: relative;
-	
+	height: 100%;	
+
+}
+
+
+#footer-contact > p {
+	margin-bottom: 10px;
+	padding-left: 60px;
+}
+
+#footer-contact > img {
+	position: absolute;
 }
 
 #footer-fill {
@@ -297,21 +305,16 @@ p.container {
 #footer-small-adress {
 	background-color: #fff;
 	color: initial;
-	padding: 20px 5% 2% 7%;
+	padding: 20px 20px 20px 5px;
 	height: 100%;
 }
 
-#footer-small-adress > p {
-	margin-bottom: 10px;
+#footer-small-adress > div {
+	float: right;
 }
 
-#footer-contact > p {
+#footer-small-adress > div > p  {
 	margin-bottom: 10px;
-	padding-left: 60px;
-}
-
-#footer-contact > img {
-	position: absolute;
 }
 
 footer > div > div.row {	
@@ -324,6 +327,7 @@ footer > div > div.row {
 	background-color: 	#2b6a84;
 	padding-bottom: 40px;
 }
+
 
 
 
@@ -344,25 +348,37 @@ footer > div > div.row {
 		width: 100vw;
 
 	}
+
 	#nav-list a > div {
 		border:0;
 		border-bottom: 1px 
 	}
+
 	#nav-list {
-	margin-bottom: 0px;
-	margin-right: 0;
+		margin-bottom: 0px;
+		margin-right: 0;
+	}
+
+	.panel-footer {
+		font-size: 70%;
+	}
+
+
+	#footer-contact > img {
+		width: 30px;
+	}
+
+	#footer-contact > p {
+		padding-left: 40px;
+	}
+
 }
 
-.panel-footer {
-	font-size: 70%;
-}
 
-#footer-contact {
-	float: right;
-	padding-left: 10px;
-}
 
-}
+
+
+
 
 
 @media (min-width: 768px) and (max-width: 991.98px) { 

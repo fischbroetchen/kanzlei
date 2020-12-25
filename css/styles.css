@@ -396,6 +396,10 @@ footer > div > div.row {
 		margin-right: 0;
 	}
 
+	#brand-name {
+		margin-left: 150px;
+	}
+
 	/*-----------------CONTENT----------*/
 
 	#first-section {
@@ -406,7 +410,7 @@ footer > div > div.row {
 	/*---------------FOOTER---------------*/
 
 	.panel-footer {
-		font-size: 70%;
+		/*font-size: 70%;*/
 	}
 
 

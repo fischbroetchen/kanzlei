@@ -365,6 +365,21 @@ footer > div > div.row {
 
 /*-----------------HEADER--------------*/
 
+
+	#logo-img {
+		background: url('../img/Logo.png') no-repeat center;
+		background-size: contain;
+		width: 200px;
+		vertical-align: bottom;
+
+	}
+
+	div#logo-img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
 	#nav-list a {
 		height: 40px;
 		width: 100vw;
@@ -407,6 +422,9 @@ footer > div > div.row {
 		padding-right: 40px;
 	}
 
+
+
+
 }
 
 
@@ -423,6 +441,13 @@ footer > div > div.row {
 		background-size: contain;
 		width: 120px;
 		vertical-align: bottom;
+
+	}
+
+	div#logo-img {
+		margin-left: 30px;
+		clear: both;
+
 	}
 }
 

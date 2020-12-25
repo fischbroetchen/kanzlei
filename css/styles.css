@@ -13,6 +13,8 @@ p {
 	margin: 0;
 }
 
+
+
 .clearfix{
 	clear: both;
 }
@@ -51,7 +53,7 @@ p {
 
 #logo-img {
 	background: url('../img/Logo.png') no-repeat center;
-	background-size: auto;
+	background-size: contain;
 	width: 200px;
 	height: 100px;
 	vertical-align: bottom;
@@ -138,21 +140,24 @@ div#logo-img {
   /*margin-top: -30px;*/
 }
 
-section.container {
+/*section.container {
  	background-color: #eee;
  	padding: 50px 0px;
  	clear:both;
  	
-}
+}*/
 
 #start-img {
- 	
  	background: url('../img/Start_breit.png') no-repeat;
  	background-position: 75%;
  	background-size: cover;
  	height: 550px;
  	padding: 0;
-
+ 	position: fixed;
+ 	left: 0;
+ 	right: 0;
+ 	z-index: -1;
+ 	margin-top: -550px;
 }
 
 
@@ -182,6 +187,13 @@ section.container {
 }
 
 
+#first-section {
+	margin-top: 680px;
+	z-index: 999;
+	background-color: #fff;
+	padding-top: 20px;
+}
+
 
 section > p {
 	
@@ -201,12 +213,15 @@ section > h2 {
 	font-style: italic;
 	padding: 5% 12% 0 12%;
 	color: white;
+	margin-top: 0;
 }
 
 #bg-img-paragraph {
 	position: absolute;
 	height: 80%;
 	width: auto;
+	padding-top: 20px;
+	z-index: 1000;
 	
 
 }
@@ -220,6 +235,10 @@ h3.container {
 p.container {
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+.page-part {
+	position: relative;
 }
 
 #second-section {
@@ -343,6 +362,9 @@ footer > div > div.row {
 
 
 @media (max-width: 767.98px) { 
+
+/*-----------------HEADER--------------*/
+
 	#nav-list a {
 		height: 40px;
 		width: 100vw;
@@ -358,6 +380,15 @@ footer > div > div.row {
 		margin-bottom: 0px;
 		margin-right: 0;
 	}
+
+	/*-----------------CONTENT----------*/
+
+	#first-section {
+		margin-top: 572.85px;
+	}
+
+
+	/*---------------FOOTER---------------*/
 
 	.panel-footer {
 		font-size: 70%;

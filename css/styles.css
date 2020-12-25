@@ -271,7 +271,7 @@ p.container {
 	border: 0;
 	padding: 0;
  	font-size: 90%;
- 	background-color: #2b6a84;
+ 	background-color: #fff;
  	color: white;
  	border-radius: 0;
 }
@@ -292,28 +292,33 @@ p.container {
 }
 
 #footer-adress {
-	padding: 20px 0 20px 30px;
+	padding: 25px 0 20px 30px;
 	height: 100%;
 	background-color: #2b6a84;
 }
 
 #footer-contact {
 	float: right;
-	padding: 20px 5px 20px 30px;
+	padding: 25px 0px 20px 0px;
 	background-color: #fff;
 	color: initial;
 	height: 100%;	
 
+
+}
+#footer-contact > div {
+	float: right;
 }
 
 
-#footer-contact > p {
+#footer-contact > div > p {
 	margin-bottom: 10px;
-	padding-left: 60px;
+	/*padding-left: 60px;*/
 }
 
-#footer-contact > img {
+#footer-contact > div > img {
 	position: absolute;
+	right: 175px;
 }
 
 #footer-fill {
@@ -324,12 +329,17 @@ p.container {
 #footer-small-adress {
 	background-color: #fff;
 	color: initial;
-	padding: 20px 20px 20px 5px;
+	padding: 25px 20px 20px 0px;
 	height: 100%;
 }
 
+footer > .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 #footer-small-adress > div {
-	float: right;
+	/*float: right;*/
 }
 
 #footer-small-adress > div > p  {
@@ -337,9 +347,11 @@ p.container {
 }
 
 footer > div > div.row {	
-	margin-left: 0;
-	margin-right: 0;
+	margin-left: auto;
+	margin-right: auto;
 	height: 140px;
+	padding-left: 11%;
+	padding-right: 10%;
 }
 
 .blue-line {
@@ -414,19 +426,25 @@ footer > div > div.row {
 	}
 
 
-	#footer-contact > img {
+	#footer-contact > div > img {
 		width: 30px;
 	}
 
-	#footer-contact > p {
-		padding-left: 40px;
+	#footer-contact > div > p {
+		/*padding-left: 40px;*/
 	}
 
 	#footer-small-adress {
-		padding-right: 40px;
+		/*padding-right: 40px;*/
+		float: left;
 	}
 
+	footer > div > div.row {	
 
+		height: 160px;
+		padding-left: 10%;
+	
+	}
 
 
 }

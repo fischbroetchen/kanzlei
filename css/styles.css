@@ -15,6 +15,8 @@ p {
 
 
 
+
+
 .clearfix{
 	clear: both;
 }
@@ -119,6 +121,7 @@ div#logo-img {
 
 .navbar-collapse {
 	padding-right: 0;
+
 }
 
 .navbar-nav {
@@ -126,18 +129,33 @@ div#logo-img {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 0;
-  	margin: 0;
-	padding: 0;
-	border-radius: 0;
+  border: 0px solid black;
+	margin-right: 0;
+	border-radius: 0;*/
+	height: 100px;
+}
+
+.navbar-toggle .icon-bar {
+	width: 30px;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: white;
+}
+
+#nav-button {
+	height: 100px;
+	margin-top: -100px;
+	margin-bottom: 0;
+	padding-left: 30px;
+	padding-right:30px;
 
 
 }
 
-
 .navbar-header button.navbar-toggle {
   clear: both;
-  /*margin-top: -30px;*/
+  margin-top: -60px;
 }
 
 /*section.container {
@@ -280,7 +298,7 @@ p.container {
 #footer-name {
 	background-color: #fff;
 	/*float: right;*/
-	padding: 20px 0 20px 160px; 
+	padding: 25px 0 20px 0px; 
 	color: initial;
 	height: 100%;
 }
@@ -377,18 +395,39 @@ footer > div > div.row {
 
 /*-----------------HEADER--------------*/
 
+	
+	div.navbar-header {
+		background-color:  white;
+	}
 
-	#logo-img {
+
+	div#logo-img {
 		background: url('../img/Logo.png') no-repeat center;
 		background-size: contain;
-		width: 200px;
-		vertical-align: bottom;
+		background-color: white;
+		/*width: 200px;*/
+		/*vertical-align: bottom;*/
+		/*padding-right: 20px;*/
+		margin-left: auto !important;
+		/*margin-right: auto;*/
+		/*right: 25px;*/
+		/*position: absolute;*/
+		/*filter: invert(100%);*/
+	}
 
+	#logo-container{
+		background-color: white;
+		width:250px;
+		/*opacity: 60%;*/
+		/*position: absolute;*/
+		margin-left: 25px;
+		/*margin-right: -25px;*/
+		/*position: relative;*/
 	}
 
 	div#logo-img {
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 50px;
+		margin-right: auto;;
 	}
 
 
@@ -415,7 +454,7 @@ footer > div > div.row {
 	/*-----------------CONTENT----------*/
 
 	#first-section {
-		margin-top: 695.7px;
+		margin-top: 650px;
 	}
 
 
@@ -463,14 +502,14 @@ footer > div > div.row {
 		background-size: contain;
 		width: 120px;
 		vertical-align: bottom;
-
 	}
 
 	div#logo-img {
 		margin-left: 30px;
 		clear: both;
-
 	}
+
+
 }
 
 

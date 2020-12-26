@@ -405,24 +405,14 @@ footer > div > div.row {
 		background: url('../img/Logo.png') no-repeat center;
 		background-size: contain;
 		background-color: white;
-		/*width: 200px;*/
-		/*vertical-align: bottom;*/
-		/*padding-right: 20px;*/
+		
 		margin-left: auto !important;
-		/*margin-right: auto;*/
-		/*right: 25px;*/
-		/*position: absolute;*/
-		/*filter: invert(100%);*/
+
 	}
 
 	#logo-container{
 		background-color: white;
 		width:250px;
-		/*opacity: 60%;*/
-		/*position: absolute;*/
-		margin-left: 25px;
-		/*margin-right: -25px;*/
-		/*position: relative;*/
 	}
 
 	div#logo-img {

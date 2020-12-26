@@ -147,9 +147,9 @@ div#logo-img {
 	height: 100px;
 	margin-top: -100px;
 	margin-bottom: 0;
-	padding-left: 30px;
-	padding-right:30px;
-
+	padding-left: 35px;
+	padding-right:35px;
+	border-left:  1px dashed #ddd;
 
 }
 
@@ -157,7 +157,9 @@ div#logo-img {
   clear: both;
   margin-top: -60px;
 }
-
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
 /*section.container {
  	background-color: #eee;
  	padding: 50px 0px;
@@ -405,7 +407,6 @@ footer > div > div.row {
 		background: url('../img/Logo.png') no-repeat center;
 		background-size: contain;
 		background-color: white;
-		
 		margin-left: auto !important;
 
 	}
@@ -429,7 +430,8 @@ footer > div > div.row {
 
 	#nav-list a > div {
 		border:0;
-		border-bottom: 1px 
+		border-bottom: 1px dashed gray;
+		float: right;
 	}
 
 	#nav-list {

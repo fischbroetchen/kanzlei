@@ -155,13 +155,11 @@ div#logo-img {
 	margin-bottom: 0;
 	padding-left: 35px;
 	padding-right:35px;
-	border-left:  1px dashed #ddd;
+	border-left:  1px dashed #ddd;;
 
 }
 
-#impressum #nav-button{
-	border-bottom: 1px dashed #ddd;
-}
+
 
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -440,9 +438,13 @@ footer > div > div.row {
 
 	#nav-list a > div {
 		border:0;
-		border-bottom: 1px dashed gray;
+		border-bottom: 1px dashed #2b6a84;
 		float: right;
 	}
+
+	/*#impressum-link {
+		border-bottom: 1px solid #2b6a84;
+	}*/
 
 	#nav-list {
 		margin-bottom: 0px;
@@ -453,10 +455,16 @@ footer > div > div.row {
 		margin-left: 150px;
 	}
 
+
+	#start-img {
+		margin-top: -450px;
+		height: 450px;
+	}
+
 	/*-----------------CONTENT----------*/
 
 	#first-section {
-		margin-top: 650px;
+		margin-top: 550px;
 	}
 
 

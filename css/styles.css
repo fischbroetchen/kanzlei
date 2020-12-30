@@ -209,7 +209,6 @@ div#logo-img {
 	clear: both;
 	text-transform: uppercase;
 	font-size: 20px;
-	/*background-color: lightgray;*/
 	background: rgba(255, 255, 255, 0.6);
 	padding: 12px 15px 12px 15px;
 }
@@ -246,11 +245,12 @@ section > h2 {
 
 #bg-img-paragraph {
 	position: absolute;
-	height: 80%;
+	height: auto;
 	width: auto;
 	padding-top: 20px;
 	z-index: 1000;
-	
+	overflow: hidden;
+	max-height: 600px;
 
 }
 
@@ -307,7 +307,6 @@ p.container {
 
 #footer-name {
 	background-color: #fff;
-	/*float: right;*/
 	padding: 25px 0 20px 0px; 
 	color: initial;
 	height: 100%;
@@ -341,7 +340,7 @@ p.container {
 
 #footer-contact > div > p {
 	margin-bottom: 10px;
-	/*padding-left: 60px;*/
+
 }
 
 #footer-contact > div > img {
@@ -442,9 +441,6 @@ footer > div > div.row {
 		float: right;
 	}
 
-	/*#impressum-link {
-		border-bottom: 1px solid #2b6a84;
-	}*/
 
 	#nav-list {
 		margin-bottom: 0px;

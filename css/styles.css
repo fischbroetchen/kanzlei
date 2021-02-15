@@ -139,7 +139,7 @@ div#logo-img {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 0px solid black;
 	margin-right: 0;
-	border-radius: 0;*/
+	border-radius: 0;
 	height: 100px;
 }
 
@@ -221,7 +221,7 @@ div#logo-img {
 #first-section {
 	margin-top: 680px;
 	z-index: 999;
-	background-color: #fff;
+	/*background-color: #fff;*/
 	padding-top: 20px;
 }
 
@@ -256,10 +256,16 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
+.header-rule{
+	margin-left: 10%;
+	margin-right: 10%;
+}
 /* ------------- middle section ----------*/
+.first-bg-color {
+	background-color: white;
+}
 
-#middle-section {
+.second-bg-color {
 	background-color: rgb(227,226,220);
 }
 
@@ -428,7 +434,7 @@ p.container {
 
 }
 
-#footer-contact > div > img {
+#footer-contact #contact-icon {
 	position: absolute;
 	right: 175px;
 }
@@ -480,7 +486,9 @@ footer .blue-line.row {
 	font-size: 80%;
 }
 
-
+footer a {
+	color: inherit;
+}
 
 /*------- MEDIA QUERIES -------*/
 
@@ -554,10 +562,6 @@ footer .blue-line.row {
 
 	/*-----------------CONTENT----------*/
 
-	#first-section {
-		margin-top: 550px;
-	}
-
 
 	/*---------------FOOTER---------------*/
 
@@ -590,11 +594,14 @@ footer .blue-line.row {
   		right: -65px;
   		margin-bottom: 50px;
   		letter-spacing: 0.15em;
+  		font-size: 0.5em;
   	}
 
 
 }
 
+
+/*----------collapse------------*/
 
 
 

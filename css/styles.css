@@ -1,7 +1,7 @@
 
 
 body {
-	font-size: 16px;
+	font-size: 15px;
 	font-family: Georgia;
 	border-radius: 0;
 	/*background-color: lightgray;
@@ -43,7 +43,7 @@ a, a:hover, a:focus {
 }
 
 .font1 {
-	font-family: Myriad Pro;
+	font-family: 'Noto Sans', sans-serif;
 }
 
 .text-bold {
@@ -85,7 +85,7 @@ div#logo-img {
 	display: table-cell;
     vertical-align: bottom;
     padding: 0;
-    font-family: Myriad Pro;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 0.9em;
 }
 
@@ -574,9 +574,7 @@ footer a {
 		width: 30px;
 	}
 
-	#footer-contact > div > p {
-		/*padding-left: 40px;*/
-	}
+	
 
 	#footer-small-adress {
 		/*padding-right: 40px;*/

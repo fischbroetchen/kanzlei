@@ -305,21 +305,22 @@ img.picto{
 }
 
 
-.aktuelles {
+#second-section #aktuelles {
   font-size: 16px;
   font-family: "Myriad Pro";
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.2em;
   line-height: 1.875;
   text-align: left;
   -moz-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
   -webkit-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
   -ms-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
   position: absolute;
-  right: -100px;
+  right: -40px;
   top: 200px;
   z-index: 28;
+  padding: 0;
 }
 
 
@@ -584,6 +585,12 @@ footer .blue-line.row {
 		padding-left: 10%;
 	
 	}
+
+	#second-section #aktuelles {
+  		right: -65px;
+  		margin-bottom: 50px;
+  		letter-spacing: 0.15em;
+  	}
 
 
 }

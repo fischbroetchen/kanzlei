@@ -186,6 +186,7 @@ div#logo-img {
  	right: 0;
  	z-index: -1;
  	margin-top: -550px;
+ 	overflow: hidden;
 }
 
 
@@ -235,13 +236,74 @@ section > h2 {
 	padding: 2% 12% 0 12%;
  }
 
- section > h3 {
+ h3 {
+ 	font-style: italic;
+ }
+
+ #second-section > h3 {
 	text-align: center;
 	font-style: italic;
 	padding: 5% 12% 0 12%;
 	color: white;
 	margin-top: 0;
 }
+
+hr {
+	border-color: #000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* ------------- middle section ----------*/
+
+#middle-section {
+	background-color: rgb(227,226,220);
+}
+
+#picto-row {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	
+}
+
+#picto-row .col-md-4 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.picto {
+	object-fit: contain;
+
+}
+
+img.picto{
+	width: 130px;
+  	height: 130px;
+}
+
+.circle {
+  padding-top: 25px;
+  border-width: 0px;
+  border-color: rgb(0, 0, 2);
+  border-style: solid;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.702;
+  /*position: absolute;
+  left: 190px;
+  top: 1164px;*/
+  width: 180px;
+  height: 180px;
+  z-index: 24;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
 
 #bg-img-paragraph {
 	position: absolute;
@@ -250,8 +312,10 @@ section > h2 {
 	padding-top: 20px;
 	z-index: 1000;
 	overflow: hidden;
-	max-height: 600px;
+	max-height: 500px;
 	left: 0;
+	top: 400px;
+	mix-blend-mode: color-burn;
 
 }
 
@@ -384,9 +448,16 @@ footer > div > div.row {
 
 .blue-line {
 	background-color: 	#2b6a84;
-	padding-bottom: 40px;
+	height: 40px;
+	margin-left: 0;
 }
 
+footer .blue-line.row {
+	padding-top: 10px;
+	height: auto;
+	padding-bottom: 10px;
+	font-size: 80%;
+}
 
 
 

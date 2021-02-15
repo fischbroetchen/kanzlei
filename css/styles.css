@@ -19,7 +19,9 @@ a, a:hover, a:focus {
 	color: initial;
 }
 
-
+.no-padding {
+	padding: 0;
+}
 
 
 .clearfix{
@@ -176,16 +178,17 @@ div#logo-img {
 }*/
 
 #start-img {
- 	background: url('../img/Start_breit.png') no-repeat;
+ 	background: url('../img/Start_breit.png');
  	background-position: 75%;
  	background-size: cover;
  	height: 550px;
  	padding: 0;
  	position: fixed;
+ 	top:130px;
  	left: 0;
  	right: 0;
  	z-index: -1;
- 	margin-top: -550px;
+ 	/*margin-top: -550px;*/
  	overflow: hidden;
 }
 
@@ -302,6 +305,22 @@ img.picto{
 }
 
 
+.aktuelles {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.875;
+  text-align: left;
+  -moz-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
+  -webkit-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
+  -ms-transform: matrix( 0,-0.9753770584729,0.9753770584729,0,0,0);
+  position: absolute;
+  right: -100px;
+  top: 200px;
+  z-index: 28;
+}
 
 
 
@@ -450,6 +469,7 @@ footer > div > div.row {
 	background-color: 	#2b6a84;
 	height: 40px;
 	margin-left: 0;
+	margin-right: 0;
 }
 
 footer .blue-line.row {
@@ -525,8 +545,10 @@ footer .blue-line.row {
 
 
 	#start-img {
-		margin-top: -450px;
+		top: 100px;
 		height: 450px;
+		background-size: cover;
+
 	}
 
 	/*-----------------CONTENT----------*/

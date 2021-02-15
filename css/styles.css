@@ -50,6 +50,10 @@ a, a:hover, a:focus {
 	font-weight: 700;
 }
 
+.text-italic {
+	font-style: italic;
+}
+
 .primary-color-bg {
 	background:  #2b6a84;
 }
@@ -140,7 +144,7 @@ div#logo-img {
   border: 0px solid black;
 	margin-right: 0;
 	border-radius: 0;
-	height: 100px;
+	
 }
 
 .navbar-toggle .icon-bar {
@@ -472,6 +476,11 @@ footer > div > div.row {
 	padding-right: 10%;
 }
 
+#footer-offset{
+	background-color: #2b6a84;
+	height: 100%;
+}
+
 .blue-line {
 	background-color: 	#2b6a84;
 	height: 40px;
@@ -561,7 +570,9 @@ footer a {
 	}
 
 	/*-----------------CONTENT----------*/
-
+	#first-section {
+		margin-top: 550px;
+	}
 
 	/*---------------FOOTER---------------*/
 
@@ -592,7 +603,7 @@ footer a {
   		right: -65px;
   		margin-bottom: 50px;
   		letter-spacing: 0.15em;
-  		font-size: 0.5em;
+  		font-size: 0.95em;
   	}
 
 

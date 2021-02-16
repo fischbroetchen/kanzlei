@@ -181,11 +181,8 @@ div#logo-img {
  	
 }*/
 
-#start-img {
- 	background: url('../img/Start_breit.png');
- 	background-position: 75%;
- 	background-size: cover;
- 	height: 550px;
+section.header-img {
+	height: 550px;
  	padding: 0;
  	position: fixed;
  	top:130px;
@@ -194,7 +191,26 @@ div#logo-img {
  	z-index: -1;
  	/*margin-top: -550px;*/
  	overflow: hidden;
+ 	background-position: 75% !important;
+ 	background-size: cover!important;
 }
+
+#start-img {
+ 	background: url('../img/header/start_header.png');
+}
+#anwaelte-img {
+ 	background: url('../img/header/anwaelte_header.png');
+}
+#information-img {
+ 	background: url('../img/header/info_header.png');
+}
+#impressum-img {
+ 	background: url('../img/header/info_header.png');
+}
+#datenschutz-img {
+ 	background: url('../img/header/info_header.png');
+}
+
 
 
 #company-name {
@@ -596,14 +612,18 @@ footer a {
 	#brand-name {
 		margin-left: 150px;
 	}
+	section.header-img {
+		top: 100px;
+		height: 450px;
 
+	}
 
-	#start-img {
+	/*#start-img {
 		top: 100px;
 		height: 450px;
 		background-size: cover;
 
-	}
+	}*/
 
 	/*-----------------CONTENT----------*/
 	#first-section {
@@ -706,3 +726,21 @@ footer a {
   z-index: 96;
 }
 
+.info-box {
+  border-width: 0px;
+  border-color: rgb(0, 0, 2);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(251, 250, 250);
+  opacity: 0.702;
+  z-index: 54;
+  padding: 50px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.info-box  img {
+	object-fit: contain !important;
+	opacity: 100%;
+	background-color: white;
+}

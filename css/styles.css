@@ -232,9 +232,12 @@ div#logo-img {
 
 section > p {
 	
- 	padding: 3% 12% 5% 12%;
+ 	padding: 0% 12% 5% 12%;
 }
-
+#first-section  p {
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
 
 section > h2 {
 	
@@ -245,7 +248,11 @@ section > h2 {
 
  h3 {
  	font-style: italic;
+ 	font-family: Georgia;
  }
+
+
+
 
  #second-section > h3 {
 	text-align: center;
@@ -257,10 +264,12 @@ section > h2 {
 
 hr {
 	border-color: #000;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 20px;
+
 }
+
 .header-rule{
+	margin-top:10px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -283,7 +292,9 @@ hr {
 
 #picto-row .col-md-4 {
 	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .picto {
@@ -291,7 +302,7 @@ hr {
 
 }
 
-img.picto{
+.circle img.picto{
 	width: 130px;
   	height: 130px;
 }
@@ -314,6 +325,11 @@ img.picto{
   margin-right: auto;
 }
 
+.circle img.team {
+	margin-top: -25px;
+	width: 180px;
+  	height: 180px;
+}
 
 #second-section #aktuelles {
   font-size: 16px;
@@ -610,8 +626,6 @@ footer a {
 }
 
 
-/*----------collapse------------*/
-
 
 
 
@@ -645,4 +659,32 @@ footer a {
 
 
 @media (min-width: 1200px) {
+}
+
+
+/*------------subsides-------------*/
+
+#impressum-content {
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.team-toggle {
+	border-radius: 10px;
+	padding: 2% 5% 0 5%;
+	margin-bottom: 5%;
+}
+
+.Abgerundetes_Rechteck_1 {
+  border-width: 0px;
+  border-color: rgb(0, 0, 2);
+  border-style: solid;
+  border-radius: 10px;
+  background-color: rgb(227, 226, 220);
+  position: absolute;
+  left: 131px;
+  top: 1618px;
+  width: 1126px;
+  height: 663px;
+  z-index: 94;
 }

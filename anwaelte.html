@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/spinner.css">
     <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <div class="spinner-container primary-color-bg">
+<!--     <div class="spinner-container primary-color-bg">
       <div class="spinner">
       </div>
-    </div>
+    </div> -->
     <div class="page" id="contentAnchor">
       
       <!-- HEADER AND NAVIGATION -->
@@ -34,7 +36,7 @@
 
               <button type="button" class="navbar-toggle collapsed toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" id="nav-button">
                 <span class="sr-only">Toggle navigation</span>
-                <!-- <span class="menu-bar  glyphicon glyphicon-menu-down" aria-hidden="true"></span> -->
+                
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -45,7 +47,7 @@
               <ul id="nav-list" class="nav navbar-nav navbar-right">
                 
                 <li>
-                  <a href="index.html" id="home-link" class="current-site">
+                  <a href="index.html" id="home-link">
                     <br class="hidden-xs">
                     <div class="navbar-hide-border">
                       Start
@@ -53,7 +55,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="index.html" id="anwaelte-link">
+                  <a href="anwaelte.html" id="anwaelte-link"  class="current-site">
                     <br class="hidden-xs">
                     <div>
                       Anwälte
@@ -77,7 +79,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="index.html" id="impressum-link">
+                  <a href="impressum.html" id="impressum-link">
                     <br class="hidden-xs">
                     <div class="navbar-hide-border">
                       Impressum
@@ -96,28 +98,139 @@
       <section id="start-img" class="container">
         <div>
           <h1 id="company-name" class="primary-color-bg pull-left"> Kanzlei Knapp </h1>
-          <h1 id="brand-name" class="pull-left font1">Recht & Steuern</h1>
+          <h2 id="brand-name" class="pull-left font1">Recht & Steuern</h2>
         </div>
       </section>
 
-      <section class="page-part container" id="first-section">
+      <section class="page-part container first-bg-color" id="first-section">
+        
+        
+        <h2>Über uns</h2>
         <div class="container">
-          <img src="img/paragraph.png" id="bg-img-paragraph" alt="">  
+        <div class="col-md-4 col-md-offset-4"><hr class="header-rule"></div>
+        
+        <p class="font1 container">
+          <br>
+          Die Kanzlei Knapp besteht erfolgreich seit 1989 und kann auf über 30 Jahre Erfahrung zürückgreifen. Mittlerweile haben wir uns auf auf unsere Fachgebiete Steuerrecht, Familienrecht und Verkehrsrecht spezialisiert und sind sehr erfolgreich auf diesem Gebiet. Wir haben einen großen Stamm an befreundeten Rechtsanwaltskollegen, auf die wir uns auch in schwierigen Situationen verlassen können und bei Bedarf, auf Sie zurückgreifen können.
+        </p>
+        </div>
+        <div class="col-md-4 col-md-offset-4"><hr class="header-rule"></div>
+      </section>
+
+      <section class="page-part container first-bg-color" >
+        
+        <div>
+          <div class="row text-center" id="picto-row">
+            <div class="col-md-4">
+              <a data-toggle="collapse" href="#andre-toggle">
+              <div class="circle"><img src="img/team/andre.png" class="team"></div>
+              <h3>Andre M. Knapp</h3>
+              <hr>
+              <p class="font1">Rechtsanwalt</p>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a class="collapsed" data-toggle="collapse" href="#axel-toggle">
+              <div class="circle"> <img src="img/team/axel.png" class="team"></div>
+              <h3>Axel M. Steinherr</h3>
+              <hr>
+              <p class="font1">Rechtsanwalt</p>
+            </a>
+            </div><div class="col-md-4">
+              <a class="collapsed" data-toggle="collapse" href="#anca-toggle">
+              <div class="circle"><img src="img/pict/person.png" class="picto"></div>
+              <h3>Anca Rusanda</h3>
+              <hr>
+              <p class="font1">jur. Mitarbeiterin</p>
+            </a>
+            </div>
+          </div>
         </div>
         
-        <h2>Erfahren seit über 30 Jahren</h2>
-        <p class="font1 container">
-        Seit über 30 Jahren, stehen Ihnen die Rechtsanwälte der Kanzlei Knapp mit Rat und Tat, in verschiedenen Fachgebieten erfolgreich zur Seite, um Ihnen als Mandant, eine optimale Betreuung bieten zu können. Jeder in seinem Fach spezialisiert, wie z. Bsp. Kündigungsschutzrecht, Verkehrsstraf- und Ordnungswidrigkeitenrecht, Insolvenzrecht, Familienrecht, Arbeitsrecht, Forderungseinzug, Verbraucherinsolvenz Betäubungsmittelstrafrecht, Jugendstrafrecht, Kapitalstrafrecht, Revision in Strafsachen, Straf- und Strafverfahrensrecht, Umweltstrafrecht, Wirtschaftsstrafrecht und Opferrecht, um Ihnen in jeder Lebenslage weiterhelfen zu können.
-        </p>
       </section>
-      <section class="page-part container" id= "second-section" >
+
+
+      <section class="page-part container first-bg-color" id="toggle-parent">
+       <div id="andre-toggle" class="container collapse show col-md-12" data-parent="#toggle-parent">
+          
+        <div class="container col-md-10 col-md-offset-1 font1 second-bg-color team-toggle">
+          <h3>Andre M. Knapp</h3>
+          <p>Vor der Zulassung zur Anwaltschaft habe ich mein Referendariat in Karlsruhe und Freiburg abgeleistet und w&auml;hrenddessen umfangreiche praktische Erfahrung bei dem f&uuml;r sein sozialen Engagement mit dem Bundesverdienstkreuz ausgezeichneten Rechtsanwalt Prof. Dr. Rolf-Dieter Ruppert (t) und dem ebenfalls von ihm ma&szlig;geblich beeinflussten Rechtsanwalt Klaus Harsch in Karlsruhe gemacht und mir die Sporen verdient.
+          </p>
+          <br>
+          <p>So konnte ich mich in Freiburg 1989 gleich nach dem 2. Staatsexamen erfolgreich als Kanzleigr&uuml;nder niederlassen. Mein besonderes Interesse galt immer der Einbindung moderner Rechtsanwalts-EDV. Die Kanzleiorganisation, die &uuml;ber mehrere servergest&uuml;tzte Arbeitspl&auml;tze verf&uuml;gt, bietet seinen Nutzern so die M&ouml;glichkeiten des digitalen Diktats mit Spracherkennung, der Dokumentenverwaltung der ein- und ausgehenden Dokumente am Bildschirm. Die weitreichende Nutzung des Emailmediums f&uuml;hrt zur Beschleunigung der Fallbearbeitung und schnellen Information der Mandantschaft.
+          </p>
+          <br>
+          <p>Als Deutsch-Kanadier, geboren in Edmonton, Canada, bin ich - bez&uuml;glich des Englischen - Muttersprachler.</p>
+          <br>
+          <p>Mitgliedschaften 
+            <br />
+            (auszugsweise): Freiburger Anwaltverein e.V. | ARGE Immobilien- und Mietrecht im DAV | ARGE Verkehrsrecht im DAV | 
+            ARGE Familienrecht im DAV | Advounion &Uuml;berregionale Gemeinschaft von Korrespondenzanw&auml;lten e.V.
+          </p>
+          <br>
+          <p>Verein zur F&ouml;rderung Hochbegabter e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | DPSG Gundelfingen - Vereinigung ehemaliger Leiter (Gr&uuml;ndungsmitglied) | Tierrechtsbund Freiburg e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | Ghana Union Freiburg e.V. (Gr&uuml;ndungsmitglied)<br />MataAtlantica e.V. (Gr&uuml;ndungsmitglied) | Freiburger Burschenschaft Teutonia | Kart-Club Teningen e.V.</p>
+          <p><strong>&nbsp;</strong></p>
+        </div>
+        </div>
+
+
+        <div id="axel-toggle" class="container collapse">
+           <div class="container col-md-10 col-md-offset-1 font1 second-bg-color team-toggle">
+          <h3>Axel M. Steinherr</h3>
+          <p>Vor der Zulassung zur Anwaltschaft habe ich mein Referendariat in Karlsruhe und Freiburg abgeleistet und w&auml;hrenddessen umfangreiche praktische Erfahrung bei dem f&uuml;r sein sozialen Engagement mit dem Bundesverdienstkreuz ausgezeichneten Rechtsanwalt Prof. Dr. Rolf-Dieter Ruppert (t) und dem ebenfalls von ihm ma&szlig;geblich beeinflussten Rechtsanwalt Klaus Harsch in Karlsruhe gemacht und mir die Sporen verdient.
+          </p>
+          <br>
+          <p>So konnte ich mich in Freiburg 1989 gleich nach dem 2. Staatsexamen erfolgreich als Kanzleigr&uuml;nder niederlassen. Mein besonderes Interesse galt immer der Einbindung moderner Rechtsanwalts-EDV. Die Kanzleiorganisation, die &uuml;ber mehrere servergest&uuml;tzte Arbeitspl&auml;tze verf&uuml;gt, bietet seinen Nutzern so die M&ouml;glichkeiten des digitalen Diktats mit Spracherkennung, der Dokumentenverwaltung der ein- und ausgehenden Dokumente am Bildschirm. Die weitreichende Nutzung des Emailmediums f&uuml;hrt zur Beschleunigung der Fallbearbeitung und schnellen Information der Mandantschaft.
+          </p>
+          <br>
+          <p>Als Deutsch-Kanadier, geboren in Edmonton, Canada, bin ich - bez&uuml;glich des Englischen - Muttersprachler.</p>
+          <br>
+          <p>Mitgliedschaften 
+            <br />
+            (auszugsweise): Freiburger Anwaltverein e.V. | ARGE Immobilien- und Mietrecht im DAV | ARGE Verkehrsrecht im DAV | 
+            ARGE Familienrecht im DAV | Advounion &Uuml;berregionale Gemeinschaft von Korrespondenzanw&auml;lten e.V.
+          </p>
+          <br>
+          <p>Verein zur F&ouml;rderung Hochbegabter e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | DPSG Gundelfingen - Vereinigung ehemaliger Leiter (Gr&uuml;ndungsmitglied) | Tierrechtsbund Freiburg e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | Ghana Union Freiburg e.V. (Gr&uuml;ndungsmitglied)<br />MataAtlantica e.V. (Gr&uuml;ndungsmitglied) | Freiburger Burschenschaft Teutonia | Kart-Club Teningen e.V.</p>
+          <p><strong>&nbsp;</strong></p>
+        </div>
+
+
+
+        <div id="anca-toggle" class="container collapse">
+         <div class="container col-md-10 col-md-offset-1 font1 second-bg-color team-toggle">
+          <h3>Anca Rusanda</h3>
+          <p>Vor der Zulassung zur Anwaltschaft habe ich mein Referendariat in Karlsruhe und Freiburg abgeleistet und w&auml;hrenddessen umfangreiche praktische Erfahrung bei dem f&uuml;r sein sozialen Engagement mit dem Bundesverdienstkreuz ausgezeichneten Rechtsanwalt Prof. Dr. Rolf-Dieter Ruppert (t) und dem ebenfalls von ihm ma&szlig;geblich beeinflussten Rechtsanwalt Klaus Harsch in Karlsruhe gemacht und mir die Sporen verdient.
+          </p>
+          <br>
+          <p>So konnte ich mich in Freiburg 1989 gleich nach dem 2. Staatsexamen erfolgreich als Kanzleigr&uuml;nder niederlassen. Mein besonderes Interesse galt immer der Einbindung moderner Rechtsanwalts-EDV. Die Kanzleiorganisation, die &uuml;ber mehrere servergest&uuml;tzte Arbeitspl&auml;tze verf&uuml;gt, bietet seinen Nutzern so die M&ouml;glichkeiten des digitalen Diktats mit Spracherkennung, der Dokumentenverwaltung der ein- und ausgehenden Dokumente am Bildschirm. Die weitreichende Nutzung des Emailmediums f&uuml;hrt zur Beschleunigung der Fallbearbeitung und schnellen Information der Mandantschaft.
+          </p>
+          <br>
+          <p>Als Deutsch-Kanadier, geboren in Edmonton, Canada, bin ich - bez&uuml;glich des Englischen - Muttersprachler.</p>
+          <br>
+          <p>Mitgliedschaften 
+            <br />
+            (auszugsweise): Freiburger Anwaltverein e.V. | ARGE Immobilien- und Mietrecht im DAV | ARGE Verkehrsrecht im DAV | 
+            ARGE Familienrecht im DAV | Advounion &Uuml;berregionale Gemeinschaft von Korrespondenzanw&auml;lten e.V.
+          </p>
+          <br>
+          <p>Verein zur F&ouml;rderung Hochbegabter e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | DPSG Gundelfingen - Vereinigung ehemaliger Leiter (Gr&uuml;ndungsmitglied) | Tierrechtsbund Freiburg e.V. (Gr&uuml;ndungsmitglied und Vorsitzender) | Ghana Union Freiburg e.V. (Gr&uuml;ndungsmitglied)<br />MataAtlantica e.V. (Gr&uuml;ndungsmitglied) | Freiburger Burschenschaft Teutonia | Kart-Club Teningen e.V.</p>
+          <p><strong>&nbsp;</strong></p>  
+        </div>
+      </section>
+
+
+      <section class="page-part container" id="second-section" >
         <h3 class="container">Wir suchen für unsere Bürogemeinschaft Rechtsanwälte <br class="hidden-xs hidden-sm">und freuen uns über Ihre Kontaktaufnahme.</h3>
         <p class ="text-center font1 container" >
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          Sind ihre Fachgebiete, Steuerrecht oder Verkehrsrecht?<br>
+          dann freuen wir uns über Ihre aussagekräftige Bewerbung
         </p>
         <div class="text-center">
           <button type="button" class="btn btn-light btn-lg" id="infos-btn">Weitere Infos</button>
         </div>
+        <p id="aktuelles">aktuelles | 05.2020</p>
       </section>
 
 
@@ -141,8 +254,8 @@
                 </p>
               </div>
             </div>
-           <!--  <div class="visible-md col-md-4 hidden-xs" id="footer-fill"></div> -->
-            <div class="col-md-4 col-sm-4 visible-lg" id="footer-name">
+          
+            <div class="col-md-3 col-sm-4 visible-lg" id="footer-name">
               <div>
                 <p class="text-bold">
                   Rechtsanwaltskanzlei <br>
@@ -154,7 +267,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-4 col-sm-4 visible-lg" id="footer-adress">
+            <div class="col-md-3 col-sm-4 visible-lg" id="footer-adress">
               <p>
                 Bismarckallee 2a<br>
                 79098 Freiburg<br>
@@ -162,9 +275,10 @@
                 Fax 0761 / 2055-1848
               </p>
             </div>
-            <div class="col-md-4  col-sm-6 col-xs-6 "  id="footer-contact" >
+            <div class="col-md-3 visible-lg" id="footer-offset"></div>
+            <div class="col-md-3 col-sm-6 col-xs-6 "  id="footer-contact" >
+              <img src="img/contact.png" id="contact-icon" class="hidden-xs" alt="">
               <div>
-                <img src="img/contact.png"  class="hidden-xs" alt="">
                 <p class="hidden-xs">
                   Terminvereinbarungen,<br>
                   bitte telefonisch unter:<br>
@@ -180,7 +294,12 @@
             </div>
           </div> 
         </div>
-        <span class="blue-line visible-lg "></span>
+        <span class="blue-line visible-lg "> </span>
+         <div class=" container blue-line row text-center ">
+            <div class="col-sm-2 col-sm-offset-3">© KANZLEI KNAPP</div>
+            <div class="col-sm-2"><a href="impressum.html"> IMPRESSUM</a></div>
+            <div class="col-sm-2"><a href="datenschutz.html">  DATENSCHUTZERKLÄRUNG</div>
+          </div>
       </footer>
     </div>
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
@@ -192,3 +311,6 @@
     <script>$('.spinner-container').fadeOut();</script>
   </body>
 </html>
+
+
+

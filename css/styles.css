@@ -682,16 +682,14 @@ footer a {
 	margin-bottom: 5%;
 }
 
-.Abgerundetes_Rechteck_1 {
-  border-width: 0px;
-  border-color: rgb(0, 0, 2);
-  border-style: solid;
-  border-radius: 10px;
-  background-color: rgb(227, 226, 220);
+.X {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  line-height: 1.53;
+  text-align: center;
   position: absolute;
-  left: 131px;
-  top: 1618px;
-  width: 1126px;
-  height: 663px;
-  z-index: 94;
+  right: 30px;
+  top: 20px;
+  z-index: 96;
 }
+

@@ -234,9 +234,15 @@ section > p {
 	
  	padding: 0% 12% 5% 12%;
 }
-#first-section  p {
+
+section > p {
 	padding-top: 3%;
 	padding-bottom: 5%;
+}
+
+#first-section p.anwaelte{
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
 section > h2 {
@@ -279,7 +285,7 @@ hr {
 }
 
 .second-bg-color {
-	background-color: rgb(227,226,220);
+	background-color: rgb(227,226,220)!important;
 }
 
 #picto-row {
@@ -330,6 +336,7 @@ hr {
 	width: 180px;
   	height: 180px;
 }
+
 
 #second-section #aktuelles {
   font-size: 16px;

@@ -25,7 +25,7 @@
         <nav id="header-nav" class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <a href="#second-section" class=" visible-sm visible-md visible-lg visible-xl visible-xs" id="logo-container">
+              <a href="index.html" class=" visible-sm visible-md visible-lg visible-xl visible-xs" id="logo-container">
                 <br class="hidden-xs">
                 <div id="logo-img"></div>
               </a>
@@ -104,14 +104,14 @@
 
       <section class="page-part container first-bg-color" id="first-section">
         
-        
+        <br>
         <h2>Erfahren seit über 30 Jahren</h2>
-        <p class="font1 container">
+        <p class="font1">
         Unsere Kanzlei ist spezialisiert auf die Fachgebiete Recht und Steuern um Ihnen in betrieblichen und privaten Belangen eine optimale Leistung und Lösung bieten zu können. Wir beraten sowohl Unternehme, Gesellschafter als auch Privatpersonen in allen Fragen des Steuerrechts und Steuerstrafrechts. Die ganzheitliche steuerliche Beratung steht im Mittelpunkt unserer Arbeit. Dabei profitieren Sie von unserer 30 jährigen Erfahrung.
         </p>
       </section>
 
-      <section class="page-part container second-bg-color" >
+      <section class="page-part container second-bg-color" id="middle-section">
         <div class="container">
           <img src="img/paragraph.png" id="bg-img-paragraph" alt="">  
         </div>
@@ -137,19 +137,23 @@
           </div>
         </div>
       </section>
+  
 
-
-
+  
       <section class="page-part container" id="second-section" >
-        <h3 class="container">Wir suchen für unsere Bürogemeinschaft Rechtsanwälte <br class="hidden-xs hidden-sm">und freuen uns über Ihre Kontaktaufnahme.</h3>
-        <p class ="text-center font1 container" >
+        <h3>Wir suchen für unsere Bürogemeinschaft Rechtsanwälte <br class="hidden-xs hidden-sm">und freuen uns über Ihre Kontaktaufnahme.</h3>
+        <p class ="text-center font1" >
           Sind ihre Fachgebiete, Steuerrecht oder Verkehrsrecht?<br>
           dann freuen wir uns über Ihre aussagekräftige Bewerbung
         </p>
         <div class="text-center">
           <button type="button" class="btn btn-light btn-lg" id="infos-btn">Weitere Infos</button>
         </div>
-        <p id="aktuelles">aktuelles | 05.2020</p>
+        <p id="aktuelles">aktuelles | 
+          <script type="text/javascript">
+            document.write(("0" + (new Date().getMonth() + 1)).slice(-2)+"."+new Date().getFullYear())
+          </script>
+        </p>
       </section>
 
 

@@ -232,15 +232,20 @@ div#logo-img {
 
 section > p {
 	
- 	padding: 0% 12% 5% 12%;
+ 	padding: 3% 12% 3% 12%;
 }
 
-section > p {
-	padding-top: 3%;
-	padding-bottom: 5%;
+.text-padding {
+	padding-left: 12%;
+	padding-right: 12%;
 }
 
 #first-section p.anwaelte{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+section#first-section {
 	padding-top: 3%;
 	padding-bottom: 3%;
 }
@@ -249,7 +254,7 @@ section > h2 {
 	
 	text-align: center;
 	font-style: italic;
-	padding: 2% 12% 0 12%;
+	padding: 0% 12% 0 12%;
  }
 
  h3 {
@@ -258,7 +263,10 @@ section > h2 {
  }
 
 
-
+section#second-section {
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
 
  #second-section > h3 {
 	text-align: center;
@@ -280,6 +288,11 @@ hr {
 	margin-right: 20%;
 }
 /* ------------- middle section ----------*/
+section#middle-section {
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
 .first-bg-color {
 	background-color: white;
 }
@@ -291,14 +304,14 @@ hr {
 #picto-row {
 	padding-left: 10%;
 	padding-right: 10%;
-	padding-top: 3%;
+	/*padding-top: 3%;*/
 	padding-bottom: 3%;
 	
 }
 
 #picto-row .col-md-4 {
-	padding-top: 5%;
-	padding-bottom: 30px;
+	/*padding-top: 5%;*/
+	padding-bottom: 40px;
 	padding-left: 30px;
 	padding-right: 30px;
 }

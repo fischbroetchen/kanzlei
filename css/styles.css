@@ -4,6 +4,7 @@ body {
 	font-size: 15px;
 	font-family: Georgia;
 	border-radius: 0;
+	padding: 0 !important;
 	/*background-color: lightgray;
 */
 }
@@ -549,6 +550,27 @@ footer .blue-line.row {
 
 footer a {
 	color: inherit;
+}
+
+
+/*------- MODALS ---------*/
+.modal-body {
+	padding-top: 25px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.px-3 {
+	padding-left: 3rem;
+	padding-right: 3rem
+}
+
+.pt-3 {
+	padding-top: 3rem;
+}
+
+.modal-text-right {
+	border-left: 2px dashed #8A8A8A;
 }
 
 /*------- MEDIA QUERIES -------*/

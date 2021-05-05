@@ -573,6 +573,8 @@ footer a {
 	border-left: 2px dashed #8A8A8A;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	padding-left: 3rem;
+	padding-right: 3rem;
 }
 
 /*------- MEDIA QUERIES -------*/
@@ -693,6 +695,10 @@ footer a {
 @media (max-width: 991.98px) {
 	.modal-text-right {
 	border-left: none;
+	padding-bottom: 30px;
+	border-bottom: 2px dashed #8A8A8A;
+	padding-left: 15px;
+	padding-right: 15px;
 	
 }
 }

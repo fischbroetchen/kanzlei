@@ -197,19 +197,22 @@ section.header-img {
 }
 
 #start-img {
- 	background: url('../img/header/start_header.png');
+ 	background: url('../img/header/start_header.jpg');
 }
 #anwaelte-img {
- 	background: url('../img/header/anwaelte_header.png');
+ 	background: url('../img/header/anwaelte_header.jpg');
+}
+#kanzlei-img {
+ 	background: url('../img/header/kanzlei_header.jpg');
 }
 #information-img {
- 	background: url('../img/header/info_header.png');
+ 	background: url('../img/header/info_header.jpg');
 }
 #impressum-img {
- 	background: url('../img/header/info_header.png');
+ 	background: url('../img/header/impressum_header.jpg');
 }
 #datenschutz-img {
- 	background: url('../img/header/info_header.png');
+ 	background: url('../img/header/impressum_header.jpg');
 }
 
 
